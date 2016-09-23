@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-09-23 17:28:13
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-09-23 22:26:19
+* @Last Modified time: 2016-09-23 23:46:52
 */
 body{
     background-color:#000;
@@ -61,3 +61,26 @@ body,#header,.numUp,.numRotate,.num,div{
     -moz-transform:rotate(-135deg);
    -webkit-transform:rotate(-135deg);
 }
+#contain{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+#contain .section{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    line-height:100px;
+    background-color:rgb(0,167,141);
+    margin:0 80px;
+    -moz-transform:rotate(-45deg);
+   -webkit-transform:rotate(-45deg);
+}
+#contain .section .nam{
+    color:#fff;
+    -moz-transform:rotate(45deg);
+   -webkit-transform:rotate(45deg);
+}
+
+
+
