@@ -1,0 +1,63 @@
+/* 
+* @Author: Marte
+* @Date:   2016-09-23 17:28:13
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-09-23 22:26:19
+*/
+body{
+    background-color:#000;
+    font-family:Arial;
+}
+body,#header,.numUp,.numRotate,.num,div{
+    margin:0;
+    padding:0;
+}
+#header{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+#header .numUp{
+    width:1px;
+    height:40px;
+    margin:0 auto;
+    background-color:rgb(0,167,141);
+}
+#header .numRotate{
+   border:1px solid rgb(0,167,141);
+   -moz-transform:rotate(-45deg);
+   -webkit-transform:rotate(-45deg);
+    width:12px;
+    height:12px;
+    line-height:12px;
+    padding:12px;
+    margin:7.3px auto;
+}
+#header .numRotate .num {
+    color:#ffffff;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+#header .line{
+    color:#fff;
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    left:-20px;
+    font-weight:lighter;
+    letter-spacing:12px;
+    font-size:30px;
+    position: relative;
+    padding:40px;
+}
+#header .about{
+    position:absolute;
+    top:27px;
+    left:110px;
+    width:10px;
+    height:70px;
+    margin:0 auto;
+    border-right:1px solid #ccc;
+    -moz-transform:rotate(-135deg);
+   -webkit-transform:rotate(-135deg);
+}
