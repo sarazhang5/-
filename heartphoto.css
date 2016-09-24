@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-09-23 17:28:13
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-09-24 16:47:46
+* @Last Modified time: 2016-09-24 18:31:19
 */
 body{
     background-color:#000;
@@ -112,8 +112,27 @@ body,#header,.numUp,.numRotate,.num,div{
     color:#fff;
     position: absolute;
     top:180px;
-    left:40px;
+    left:35px;
     letter-spacing:5px;
 }
-
-
+#contain .descrip img{
+    display:block;
+    position: absolute;
+    left:25px;
+    top:50px;
+}
+#contain .text{
+    color:#fff;
+    position: absolute;
+    top:260px;
+    font-size:12px;
+    font-family:"微软雅黑";
+}
+#contain .rowline{
+    width:40px;
+    height:40px;
+    position: absolute;
+    border-top:2px solid #333;
+    top:430px;
+    left:55px;
+}
